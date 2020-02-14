@@ -4,7 +4,7 @@
     "description": "Simple HTTP proxy for node.js",
     "main": "proxy.js",
     "bin": {
-        "proxy" : "proxy.js"
+        "proxy": "proxy.js"
     },
     "keywords": [
         "proxy",
@@ -15,16 +15,19 @@
         "email": "peteris.krumins@gmail.com",
         "web": "http://www.catonmat.net",
         "twitter": "pkrumins"
-    }, 
+    },
     "license": {
         "type": "MIT"
-    }, 
+    },
     "repository": {
         "type": "git",
         "url": "git@github.com:pkrumins/nodejs-proxy.git"
-    }, 
+    },
     "engines": {
         "node": ">=0.2.0"
+    },
+    "scripts": {
+        "start": "node proxy.js",
+        "cert": "cert"
     }
 }
-
